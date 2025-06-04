@@ -1,0 +1,11 @@
+datos<-read.csv("C:/Users/gamak/Downloads/netflix.csv")
+colnames(datos)
+###ejericio 1
+summary(datos$Minutes)
+summary(datos$Seasons)
+sd(datos$Minutes,na.rm = T)
+sd(datos$Seasons,na.rm = T)
+####uniques
+length(unique(datos$type))
+length(unique(datos$country))
+length(unique(datos$director))
